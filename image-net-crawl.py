@@ -15,8 +15,8 @@ rooturllist = ['82127']
 final_data = pd.read_json('final.json', orient='records', lines=False)
 fresh_data = pd.DataFrame()
 # saved flickr image that says image not found
-verpath = "C:\\Users\Administrator\Documents\Python\imgdata\\ver.jpg"
-start_dir = "C:\\Users\\Administrator\\Documents\\Python\\imagedata"
+verpath = #path to ver.jpg
+start_dir = #path where you want images downloaded to
 
 
 def rmsdiff(im1, im2):
